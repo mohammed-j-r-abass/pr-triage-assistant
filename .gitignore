@@ -33,3 +33,5 @@ ENV/
 logs/
 cache/
 *.log
+
+main_guide.py
