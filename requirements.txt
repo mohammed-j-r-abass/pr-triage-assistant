@@ -6,3 +6,4 @@ google-generativeai==0.3.0
 httpx==0.25.0
 asyncio==3.4.3
 PyGithub==2.1.1
+matplotlib==3.8.4
