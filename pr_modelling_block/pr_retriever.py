@@ -1,11 +1,13 @@
 #======================================================
 #PR MODELLING BLOCK
 #======================================================
-
 from fastapi import FastAPI, HTTPException
 import asyncio
 import os
 import httpx
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Limit concurrent requests to avoid rate limits
 semaphore = asyncio.Semaphore(10)
