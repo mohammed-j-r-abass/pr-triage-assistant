@@ -109,4 +109,4 @@ async def get_prs(owner: str, repo: str):
                 "repo": f"{owner}/{repo}",
                 "files": files #contains filename and diff
             })
-        return {"prs": relevant_pr_data}
+        return relevant_pr_data
