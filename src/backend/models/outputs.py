@@ -2,11 +2,11 @@ from dotenv import load_dotenv
 import os
 import httpx
 import asyncio
-from prompt_assembler import final_prompt
+from backend.prompts.prompt_assembler import final_prompt
 from pr_retriever import get_prs
-from prompts import system_prompt
-from consensus_prompt import consensus_model_prompt
-from build_consensus_prompt import final_c_prompt
+from backend.prompts.prompts import system_prompt
+from backend.prompts.consensus_prompt import consensus_model_prompt
+from backend.prompts.build_consensus_prompt import final_c_prompt
 
 load_dotenv()
 
